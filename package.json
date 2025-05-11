@@ -1,0 +1,21 @@
+{
+  "name": "file_reader",
+  "version": "1.0.0",
+  "description": "Reads directory file states and stores in redux objects that are downloadable",
+  "license": "ISC",
+  "author": "Orestas Tre�iokas",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "run": "nodemon index.js"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.8.1",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
